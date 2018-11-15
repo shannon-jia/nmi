@@ -1,0 +1,29 @@
+{
+    "name": "API",
+    "version": "1.0.0",
+    "title": "Transmission control data",
+    "header": {
+        "title": "Introduction",
+        "filename": "header.md"
+    },
+    "footer": {
+        "title": "end",
+        "filename": "footer.md"
+    },
+    "order": [
+        "DevTypes",
+        "Device",
+        "Auto",
+        "Sensor",
+        "Tamper",
+        "Filter",
+        "Shunt",
+        "Pre",
+        "Trbl",
+        "Control"
+    ],
+    "template":{
+        "withCompare": true,
+        "withGenerator": true
+    }
+}
