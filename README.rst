@@ -43,9 +43,11 @@ Run
 ----
 
 * Generating apidoc documents::
+
   $ make apidoc
 
 * Execution of main program::
+
   $ sam-nmi --port=8888 # Parameter self setting
 
 * Access to the home page
