@@ -38,6 +38,26 @@ Simulate the TestTcpip client. And the server is in a long connection state, and
 
 Simulate the NMI server. The message is sent through the TestTcpip client, and the message is analyzed one by one, and the relevant response is made. Messages that have responded: DEVC type, desc, Mata stat, standby, comm stat, DEVC smry, diag alarms, sensor alarms, sensor alarms, filter alarms, filter alarms, pre-alarms, sensor trbl, shunts, controls.
 
+
+Run
+----
+
+* Generating apidoc documents
+
+::
+   $ make apidoc
+
+* Execution of main program
+
+::
+   $ sam-nmi --port=8888 # Parameter self setting
+
+* Access to the home page
+
+Enter in browser address bar: http://localhost:8888
+
+
+
 Credits
 -------
 
