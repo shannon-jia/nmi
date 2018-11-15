@@ -42,15 +42,11 @@ Simulate the NMI server. The message is sent through the TestTcpip client, and t
 Run
 ----
 
-* Generating apidoc documents
+* Generating apidoc documents::
+  $ make apidoc
 
-::
-   $ make apidoc
-
-* Execution of main program
-
-::
-   $ sam-nmi --port=8888 # Parameter self setting
+* Execution of main program::
+  $ sam-nmi --port=8888 # Parameter self setting
 
 * Access to the home page
 
